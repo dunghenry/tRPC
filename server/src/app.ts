@@ -28,7 +28,7 @@ const postRouter = router({
         const post = {
             id: Math.floor(Math.random() * 10) + 2,
             title: input.title,
-            ...input,
+            // ...input,
         };
         // console.log(post);
         db.posts.push(post);
